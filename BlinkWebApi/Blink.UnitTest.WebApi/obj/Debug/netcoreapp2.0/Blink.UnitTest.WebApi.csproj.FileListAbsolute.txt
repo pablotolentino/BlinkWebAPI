@@ -1,0 +1,14 @@
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\bin\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.deps.json
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\bin\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.runtimeconfig.json
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\bin\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.runtimeconfig.dev.json
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\bin\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\bin\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.pdb
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\obj\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\obj\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\obj\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.AssemblyInfoInputs.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\obj\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.AssemblyInfo.cs
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\obj\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.WebApi\obj\Debug\netcoreapp2.0\Blink.UnitTest.WebApi.pdb

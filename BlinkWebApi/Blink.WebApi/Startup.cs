@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using Blink.Data;
+using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using Blink.Data.UnitsOfWork;
+using Blink.Core.UnitsOfWork;
+using Blink.Data.Helpers;
 
 namespace Blink.WebApi
 {
@@ -24,6 +24,12 @@ namespace Blink.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            // Conexión a la base de datos
+            services.AddDbContext<BLINKContext>(options => options.UseSqlServer(
+        Configuration.GetConnectionString("DefaultConnection")));
+            services.AddAutoMapper(typeof(Startup));
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+            services.AddScoped<IUserUnit, UserUnit>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

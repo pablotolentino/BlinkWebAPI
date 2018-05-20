@@ -1,0 +1,14 @@
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\bin\Debug\netcoreapp2.0\Blink.UnitTest.Data.deps.json
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\bin\Debug\netcoreapp2.0\Blink.UnitTest.Data.runtimeconfig.json
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\bin\Debug\netcoreapp2.0\Blink.UnitTest.Data.runtimeconfig.dev.json
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\bin\Debug\netcoreapp2.0\Blink.UnitTest.Data.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\bin\Debug\netcoreapp2.0\Blink.UnitTest.Data.pdb
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\obj\Debug\netcoreapp2.0\Blink.UnitTest.Data.csprojResolveAssemblyReference.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\obj\Debug\netcoreapp2.0\Blink.UnitTest.Data.csproj.CoreCompileInputs.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\obj\Debug\netcoreapp2.0\Blink.UnitTest.Data.AssemblyInfoInputs.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\obj\Debug\netcoreapp2.0\Blink.UnitTest.Data.AssemblyInfo.cs
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\obj\Debug\netcoreapp2.0\Blink.UnitTest.Data.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.UnitTest.Data\obj\Debug\netcoreapp2.0\Blink.UnitTest.Data.pdb

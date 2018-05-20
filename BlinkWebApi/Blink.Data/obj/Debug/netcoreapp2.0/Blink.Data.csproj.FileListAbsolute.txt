@@ -1,0 +1,11 @@
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\bin\Debug\netcoreapp2.0\Blink.Data.deps.json
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\bin\Debug\netcoreapp2.0\Blink.Data.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\bin\Debug\netcoreapp2.0\Blink.Data.pdb
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\obj\Debug\netcoreapp2.0\Blink.Data.csprojResolveAssemblyReference.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\obj\Debug\netcoreapp2.0\Blink.Data.csproj.CoreCompileInputs.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\obj\Debug\netcoreapp2.0\Blink.Data.AssemblyInfoInputs.cache
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\obj\Debug\netcoreapp2.0\Blink.Data.AssemblyInfo.cs
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\obj\Debug\netcoreapp2.0\Blink.Data.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\obj\Debug\netcoreapp2.0\Blink.Data.pdb
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\bin\Debug\netcoreapp2.0\Blink.Core.dll
+C:\Users\totp\Documents\GitHub\BlinkWebAPI\BlinkWebApi\Blink.Data\bin\Debug\netcoreapp2.0\Blink.Core.pdb
