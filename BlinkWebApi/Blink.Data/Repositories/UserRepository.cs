@@ -10,10 +10,10 @@ namespace Blink.Data.Repositories
 {
     public class UserRepository : IUserRepository
     {
-        internal BLINKContext context;
+        internal BLINKContext _context;
         public UserRepository(BLINKContext context)
         {
-            this.context = context;
+            this._context = context;
         }
 
         public User Authenticate(string username, string password)
@@ -21,7 +21,7 @@ namespace Blink.Data.Repositories
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
                 return null;
 
-            var user = context.User.SingleOrDefault(x => x.Username == username && x.Deleted == false);
+            User user = _context.User.SingleOrDefault(x => x.Username == username && x.Deleted == false);
 
             // check if username exists
             if (user == null)
@@ -41,7 +41,7 @@ namespace Blink.Data.Repositories
             if (string.IsNullOrWhiteSpace(password))
                 throw new AppException("Password is required");
 
-            if (context.User.Any(x => x.Username == user.Username))
+            if (_context.User.Any(x => x.Username == user.Username))
                 throw new AppException("Username " + user.Username + " is already taken");
 
             byte[] passwordHash, passwordSalt;
@@ -71,7 +71,7 @@ namespace Blink.Data.Repositories
 
         public void Delete(int id)
         {
-            User entityToDelete = context.User.Find(id);
+            User entityToDelete = _context.User.Find(id);
             if (entityToDelete == null) return;
             entityToDelete.Deleted = true;
             entityToDelete.UpdateDate = DatetimeBo.CurrentDateTime();
@@ -79,36 +79,36 @@ namespace Blink.Data.Repositories
         }
         public void Delete(User entityToDelete)
         {
-            if (context.Entry(entityToDelete).State == EntityState.Detached)
+            if (_context.Entry(entityToDelete).State == EntityState.Detached)
             {
-                context.User.Attach(entityToDelete);
+                _context.User.Attach(entityToDelete);
             }
-            context.User.Remove(entityToDelete);
+            _context.User.Remove(entityToDelete);
         }
 
         public User GetById(int id)
         {
-            return context.User.Find(id);
+            return _context.User.Find(id);
         }
 
         public IEnumerable<User> GetAll()
         {
-            return context.User;
+            return _context.User;
         }
 
         public void Insert(User entity)
         {            
-            context.User.Add(entity);
+            _context.User.Add(entity);
         }
 
         public void Update(User entityToUpdate)
         {            
-            context.Entry(entityToUpdate).State = EntityState.Modified;
-            context.User.Attach(entityToUpdate);
+            _context.Entry(entityToUpdate).State = EntityState.Modified;
+            _context.User.Attach(entityToUpdate);
         }
         public void Update(User userParam, string password = null)
         {
-            var user = context.User.Find(userParam.Id);
+            User user = _context.User.Find(userParam.Id);
 
             if (user == null)
                 throw new AppException("User not found");
@@ -116,15 +116,22 @@ namespace Blink.Data.Repositories
             if (userParam.Username != user.Username)
             {
                 // username has changed so check if the new username is already taken
-                if (context.User.Any(x => x.Username == userParam.Username))
+                if (_context.User.Any(x => x.Username == userParam.Username))
                     throw new AppException("Username " + userParam.Username + " is already taken");
             }
 
             // update user properties
             user.Name = userParam.Name;
-            user.MaternalSurname = userParam.Name;
+            user.MaternalSurname = userParam.MaternalSurname;
+            user.PaternalSurname = userParam.PaternalSurname;
             user.Username = userParam.Username;
-
+            user.Birthdate = userParam.Birthdate;
+            user.Gender = userParam.Gender;
+            user.HomePhone = userParam.HomePhone;
+            user.MobilePhone = userParam.MobilePhone;
+            user.TypeUser = userParam.TypeUser;
+            user.IsPhysical = userParam.IsPhysical;
+            user.UpdateDate = DatetimeBo.CurrentDateTime();
             // update password if it was entered
             if (!string.IsNullOrWhiteSpace(password))
             {
@@ -133,8 +140,7 @@ namespace Blink.Data.Repositories
 
                 user.PasswordHash = passwordHash;
                 user.PasswordSalt = passwordSalt;
-            }
-            user.UpdateDate = DatetimeBo.CurrentDateTime();
+            }           
            
             Update(user);
         }
