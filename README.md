@@ -21,4 +21,5 @@ Install-Package Microsoft.EntityFrameworkCore.SqlServer.Design<br/>
 Instalar automaper
 
 Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection -Version 4.0.0
+
 Install-Package AutoMapper -Version 7.0.0
