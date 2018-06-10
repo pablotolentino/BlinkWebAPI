@@ -9,8 +9,11 @@ namespace Blink.WebApi
         public MappingProfile()
         {
             // Add as many of these lines as you need to map your objects
-            CreateMap<User, UserDto>();
-            CreateMap<UserDto, User>();
+            CreateMap<Person, PersonDto>();
+            CreateMap<PersonDto, Person>();
+            CreateMap<Address, AddressDto>();
+            CreateMap<AddressDto, Address>();
+            CreateMap<Address, BinnacleAddress>().ForSourceMember(address => address.Person, opt => opt.Ignore()).ForSourceMember(address => address.BinnacleAddress, opt => opt.Ignore());
         }
     }
 }

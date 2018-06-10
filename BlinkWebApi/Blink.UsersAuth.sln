@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blink.WebApi", "Blink.WebApi\Blink.WebApi.csproj", "{1D908742-E370-4800-9AB6-C48632047A95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blink.WebApi", "Blink.WebApi\Blink.WebApi.csproj", "{1D908742-E370-4800-9AB6-C48632047A95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blink.Core", "Blink.Core\Blink.Core.csproj", "{BA926136-A31D-480F-BFD3-13608D6CA992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blink.Core", "Blink.Core\Blink.Core.csproj", "{BA926136-A31D-480F-BFD3-13608D6CA992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blink.Data", "Blink.Data\Blink.Data.csproj", "{AF822D13-3266-45A2-901E-FAACBFDE47FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blink.Data", "Blink.Data\Blink.Data.csproj", "{AF822D13-3266-45A2-901E-FAACBFDE47FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blink.UnitTest.Data", "Blink.UnitTest.Data\Blink.UnitTest.Data.csproj", "{8A4D0D1B-4EA3-4876-8045-B7C4DF541213}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blink.UnitTest.WebApi", "Blink.UnitTest.WebApi\Blink.UnitTest.WebApi.csproj", "{5C537F7F-3C9C-44B8-9099-DBC82D0F3F32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blink.UnitTest.WebApi", "Blink.UnitTest.WebApi\Blink.UnitTest.WebApi.csproj", "{5C537F7F-3C9C-44B8-9099-DBC82D0F3F32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{AF822D13-3266-45A2-901E-FAACBFDE47FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF822D13-3266-45A2-901E-FAACBFDE47FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF822D13-3266-45A2-901E-FAACBFDE47FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A4D0D1B-4EA3-4876-8045-B7C4DF541213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A4D0D1B-4EA3-4876-8045-B7C4DF541213}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A4D0D1B-4EA3-4876-8045-B7C4DF541213}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A4D0D1B-4EA3-4876-8045-B7C4DF541213}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C537F7F-3C9C-44B8-9099-DBC82D0F3F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C537F7F-3C9C-44B8-9099-DBC82D0F3F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C537F7F-3C9C-44B8-9099-DBC82D0F3F32}.Release|Any CPU.ActiveCfg = Release|Any CPU

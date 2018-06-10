@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using Blink.Core.Repositories;
+using Blink.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace Blink.Data.Repositories

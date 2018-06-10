@@ -8,6 +8,7 @@ using AutoMapper;
 using Blink.Data.UnitsOfWork;
 using Blink.Core.UnitsOfWork;
 using Blink.Data.Helpers;
+using Blink.Data.Context;
 
 namespace Blink.WebApi
 {
@@ -29,7 +30,7 @@ namespace Blink.WebApi
         Configuration.GetConnectionString("DefaultConnection")));
             services.AddAutoMapper(typeof(Startup));
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
-            services.AddScoped<IUserUnit, UserUnit>();
+            services.AddScoped<IPersonUnit, PersonUnit>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
